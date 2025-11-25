@@ -10,7 +10,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get('/', (req, res) => {
-    res.end('git2doc backend running...')
+    res.send('git2doc backend running...')
 })
 
 app.use('/api/github', githubRoutes)
