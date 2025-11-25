@@ -1,9 +1,8 @@
+import './config/env.js'
+
 import express from 'express'
 import cors from 'cors'
-import dotenv from 'dotenv'
 import githubRoutes from './routes/githubRotues.js'
-
-dotenv.config()
 
 const app = express()
 
